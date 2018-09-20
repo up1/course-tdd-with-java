@@ -2,6 +2,7 @@
 
 ### Day 1
 
+* Developer Testing
 * Introduction to Testing and Test Driven Development (TDD)
     * The importance of Testing
     * XP, Agile and TDD
