@@ -1,0 +1,38 @@
+{
+	"id": "17cf4589-3227-5e3d-2681-ea3ea0869bf9",
+	"name": "test",
+	"description": "",
+	"order": [
+		"730469c2-cd6e-004a-3555-7a0c25f1f7fe"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1537337481121,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "730469c2-cd6e-004a-3555-7a0c25f1f7fe",
+			"headers": "",
+			"headerData": [],
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "17cf4589-3227-5e3d-2681-ea3ea0869bf9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://jsonplaceholder.typicode.com/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1537337491740,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\n\n\nvar jsonData = JSON.parse(responseBody);\ntests[\"Size = 10\"] = jsonData.length === 10;",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

@@ -15,7 +15,7 @@ import org.junit.runners.Parameterized.Parameters;
 public class HelloDataTest { 
 	
 	// Step 2
-	@Parameters
+	@Parameters(name = "{index}: sayHi({0})={1}")
 	public static Collection<Object[]> xxxxx() {
 		return Arrays.asList(new Object[][] {
 			
